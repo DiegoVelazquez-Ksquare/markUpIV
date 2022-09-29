@@ -4,8 +4,10 @@ body{
     padding: 40px;
     display: grid;
     align-content: center;
+    justify-content: center;
 }
 .container{
+    width: 1000px;
     padding: 20px;
     margin-left: 100px;
     margin-right: 100px;
@@ -18,8 +20,6 @@ body{
     border-radius: 10px;
 }
 .user{
-    height: 100px;
-    width: 500px;
     border-radius: 10px;
     display: grid;
     grid-column: 2;
